@@ -17,7 +17,8 @@ export default function ContactBar() {
       container
       spacing={2}
       padding={2}
-      style={{
+      sx={{
+        display: { xs: "none", md: "flex" },
         backgroundColor: colors.navGreen,
         color: colors.white,
         fontWeight: "bold",

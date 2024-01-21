@@ -11,6 +11,7 @@ interface ProvidersProps {
 
 const theme = createTheme({
   typography: {
+    fontFamily: ["Montserrat", "sans-serif"].join(","),
     fontSize: 14,
     h1: {
       fontSize: "24px",
