@@ -9,7 +9,11 @@ interface ProvidersProps {
   children: React.ReactNode;
 }
 
-const theme = createTheme();
+const theme = createTheme({
+  typography: {
+    fontSize: 14,
+  },
+});
 
 export default function Providers({ children }: ProvidersProps) {
   return (
