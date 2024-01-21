@@ -9,7 +9,7 @@ import "@fontsource/roboto/700.css";
 
 import Providers from "@/providers";
 
-import TopBar from "@/components/nav";
+import TopBar from "@/components/header";
 
 const inter = Inter({ subsets: ["latin"] });
 
