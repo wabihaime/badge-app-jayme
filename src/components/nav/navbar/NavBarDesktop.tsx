@@ -27,8 +27,8 @@ export default function NavBarDesktop() {
       </Grid>
       <Grid item md>
         {links.map((link: NavType) => (
-          <Button sx={{ color: "black" }}>
-            <Typography>{link.label}</Typography>
+          <Button sx={{ color: "black", fontWeight: "bold" }}>
+            {link.label}
             {link.subRoutes && <KeyboardArrowDown />}
           </Button>
         ))}
@@ -44,7 +44,7 @@ export default function NavBarDesktop() {
         <IconButton color="primary">
           <ShoppingCartOutlined />
         </IconButton>
-        <IconButton color="primary">
+        <IconButton color="secondary">
           <FavoriteBorder />
         </IconButton>
       </Grid>
