@@ -12,6 +12,10 @@ interface ProvidersProps {
 const theme = createTheme({
   typography: {
     fontSize: 14,
+    h1: {
+      fontSize: "24px",
+      fontWeight: "bold",
+    },
   },
 });
 
