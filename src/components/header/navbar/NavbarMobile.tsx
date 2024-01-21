@@ -27,7 +27,7 @@ export default function NavbarMobile() {
     >
       <Grid container padding={2}>
         <Grid item xs>
-          <Typography variant="h1">Badge</Typography>
+          <Typography variant="h1">Bandage</Typography>
         </Grid>
         <Grid item xs={5}>
           <Stack direction="row" justifyContent="end">

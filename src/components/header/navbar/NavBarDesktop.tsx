@@ -21,7 +21,7 @@ export default function NavBarDesktop() {
       <Grid item md={3}>
         <Button>
           <Typography variant="h1" color="black">
-            Badge
+            Bandage
           </Typography>
         </Button>
       </Grid>
@@ -44,7 +44,7 @@ export default function NavBarDesktop() {
         <IconButton color="primary">
           <ShoppingCartOutlined />
         </IconButton>
-        <IconButton color="secondary">
+        <IconButton color="primary">
           <FavoriteBorder />
         </IconButton>
       </Grid>
